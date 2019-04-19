@@ -1,4 +1,4 @@
-pragma solidity 0.4.24;
+pragma solidity ^0.5.2;
 
 import "github.com/zillerium/openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
 import "github.com/zillerium/openzeppelin-solidity/contracts/ownership/Ownable.sol";
