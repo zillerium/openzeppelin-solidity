@@ -10,7 +10,7 @@ import "github.com/openzeppelin-solidity/contracts/crowdsale/emission/MintedCrow
 import "github.com/openzeppelin-solidity/contracts/crowdsale/validation/CappedCrowdsale.sol";
 
 
-contract SozoCrowdsale is InitialSupplyCrowdsale, CappedCrowdsale {
+contract ZKR1Crowdsale is  CappedCrowdsale {
 
     uint8 public constant decimals = 18;
     uint256 public constant TOTAL_SUPPLY = uint256(10000000000) * (uint256(10) ** decimals);  // 10,000,000,000
