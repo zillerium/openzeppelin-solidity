@@ -19,7 +19,7 @@ contract ZKR1Crowdsale is  CappedCrowdsale {
   * @param _rate Number of token units a buyer gets per wei
   * @param _wallet Address where collected funds will be forwarded to
   */
-    constructor(uint256 _rate, address _wallet, address[5] _wallets, SozoToken _token) public
+    constructor(uint256 _rate, address _wallet,  ZKR1Token _token) public
         CappedCrowdsale(TOTAL_SUPPLY)
         Crowdsale(_rate, _wallet, _token)
         require(_rate > 0);
