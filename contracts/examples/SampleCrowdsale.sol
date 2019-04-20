@@ -1,10 +1,10 @@
 pragma solidity ^0.5.2;
 
-import "github.com/zillerium/openzepplin-solidity/contracts/crowdsale/validation/CappedCrowdsale.sol";
-import "github.com/zillerium/openzepplin-solidity/contracts/crowdsale/distribution/RefundableCrowdsale.sol";
-import "github.com/zillerium/openzepplin-solidity/contracts/crowdsale/emission/MintedCrowdsale.sol";
-import "github.com/zillerium/openzepplin-solidity/contracts/token/ERC20/ERC20Mintable.sol";
-import "github.com/zillerium/openzepplin-solidity/contracts/token/ERC20/ERC20Detailed.sol";
+import "../crowdsale/validation/CappedCrowdsale.sol";
+import "../crowdsale/distribution/RefundableCrowdsale.sol";
+import "../crowdsale/emission/MintedCrowdsale.sol";
+import "../token/ERC20/ERC20Mintable.sol";
+import "../token/ERC20/ERC20Detailed.sol";
 
 /**
  * @title SampleCrowdsaleToken
