@@ -1,7 +1,7 @@
 pragma solidity ^0.5.2;
 
-import "../token/ERC20/ERC20.sol";
-import "../token/ERC20/ERC20Detailed.sol";
+import "github.com/zillerium/openzepplin-solidity/token/ERC20/ERC20.sol";
+import "github.com/zillerium/openzepplin-solidity/token/ERC20/ERC20Detailed.sol";
 
 /**
  * @title SimpleToken
