@@ -8,13 +8,7 @@ function getBalance() {
     var walletaddress = document.getElementById("walletaddress").value;
     sim1ERC20Contract.balanceOf(walletaddress, function(error, result){
     if(!error) {
-      var arrayTxns = result.c;
-      var total=0;
-      for (i=0;i<arrayTxns.length;i++) {
-        total += arrayTxns[i];
-      }
-
-      document.getElementById("walletaddressbalance").innerHTML = 'Balance ' + total;
+      document.getElementById("walletaddressbalance").innerHTML = 'Balance ' + result.toNumber();
       console.log(result);
     } else
       console.log(error);
