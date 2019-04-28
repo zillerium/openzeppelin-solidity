@@ -1,0 +1,52 @@
+ #trying to follow readme
+    5  git submodule update --init --recursive mkdir build cd build cmake .. && make
+    6  ll
+    7  cd baby_jubjub_ecc/
+    8  git submodule update --init --recursive mkdir build cd build cmake .. && make
+    9  #any idea?
+   10  git status
+   11  git pull
+   12  git submodule update --init --recursive
+   13  mkdir build 
+   14  cd build
+   15  sudo apt install cmake
+   16  cmake ..
+   17  sudo apt install build-essential
+   18  cmake ..
+   19  apt-cache -n search pkg
+   20  #i have the cmd
+   21  sudo apt-get install pkg-config
+   22  cmake ..
+   23  #i am checking google now
+   24  sudo apt-get install libprocps-dev
+   25  cmake ..
+   26  sudo apt-cache -n search libcrypto
+   27  apt-cache show libcrypto++-dev
+   28  sudo apt-get install libssl-dev
+   29  cmake ..
+   30  sudo apt-cache -n search boost
+   31  sudo apt-get install libboost-tools-dev
+   32  cmake ..
+   33  sudo apt-cache -n search libboost
+   34  sudo apt-get install libboost-all-dev
+   35  cmake ..
+   36  cd ..
+   37  grep -ri 'NOTFOUND'./
+   38  grep -ri 'NOTFOUND' ../
+   39  ll
+   40  cd b
+   41  cd build
+   42  ll
+   43  cd CMakeFiles/
+   44  ll
+   45  more CMake*Err*
+   46  sudo apt-cache -n search gmp
+   47  apt-cache show gmp-doc
+   48  sudo apt-cache search gmplib
+   49  sudo apt-cache search gmp
+   50  apt-cache show python-gmpy
+   51  sudo apt-cache search libgmp
+   52  sudo apt install libgmp-dev
+   53  cmake ..
+   54  history >> testh.txt
+trevor
