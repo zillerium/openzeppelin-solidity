@@ -1,0 +1,6 @@
+ssh -L local_port:remote_address:remote_port username@server.com
+start ganache-cli and have localhost running
+then use ssh to connect to local machine
+this can then be accessed via metamask and localhost
+also remixd can be used to accessed source code via localhost if the source
+code on the server is copied down using scp (after generation from the zksnarks toolkit)
